@@ -14,7 +14,7 @@ Create a Subnet for the virtual network.
 Create a Subnet NIC virtual machine.
 
 Build the VM block for TrueNAS
-
+!
 az login
 az account set --subscription <subscription-id>
 az role assignment create --assignee <app-registration-object-id> --role <role-name> --scope /subscriptions/<subscription-id>
