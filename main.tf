@@ -70,8 +70,8 @@ resource "azurerm_virtual_machine" "mytestvm" {
 
   os_profile {
     computer_name  = "${var.prefix}-vm"
-    admin_username = "adminuser"
-    admin_password = "password"
+    admin_username = ""
+    admin_password = ""
   }
 
   os_profile_linux_config {
